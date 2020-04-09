@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29806.167
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AllInOne", "AllInOne\AllInOne.csproj", "{8EDAB906-3A17-436C-B24B-22C6FED3BA93}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "AllInOneInstaller", "setup\setup.vdproj", "{381AAB6A-AC64-4B13-9FEB-14D4A7C7C4F9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8EDAB906-3A17-436C-B24B-22C6FED3BA93}.Debug|Any CPU.ActiveCfg = Release|Any CPU
+		{8EDAB906-3A17-436C-B24B-22C6FED3BA93}.Debug|Any CPU.Build.0 = Release|Any CPU
+		{8EDAB906-3A17-436C-B24B-22C6FED3BA93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8EDAB906-3A17-436C-B24B-22C6FED3BA93}.Release|Any CPU.Build.0 = Release|Any CPU
+		{381AAB6A-AC64-4B13-9FEB-14D4A7C7C4F9}.Debug|Any CPU.ActiveCfg = Debug
+		{381AAB6A-AC64-4B13-9FEB-14D4A7C7C4F9}.Release|Any CPU.ActiveCfg = Release
+		{381AAB6A-AC64-4B13-9FEB-14D4A7C7C4F9}.Release|Any CPU.Build.0 = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FCA77B98-2A77-41B6-A69C-6E021147156B}
+	EndGlobalSection
+EndGlobal
